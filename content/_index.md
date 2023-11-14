@@ -2,6 +2,6 @@
 title: Home
 ---
 
-{{<figure src="http://pic1.win4000.com/wallpaper/d/5513839249e9a.jpg" title="A" width="450">}}
+{{<figure src="https://github.com/zhongzhili/zhongzhili.github.io/blob/master/static/media/personal%20photo.jpg" title="A" width="450">}}
 
 A
