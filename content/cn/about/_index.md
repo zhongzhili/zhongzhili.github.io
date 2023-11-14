@@ -4,11 +4,11 @@ type : list-single
 toc: true
 ---
 
-姓名：王大锤
+姓名：李忠智
 
-职业：演员
+职业：学生
 
-英文名：David Wang
+英文名：Zhongzhi Li
 
 代表作品：《万万没想到》
 
