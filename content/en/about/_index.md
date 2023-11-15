@@ -6,67 +6,52 @@ type : list-single
 The following content came from the [Compact Academic CV](https://www.latextemplates.com/template/compact-academic-cv) by [Dario Taraborelli](https://github.com/dartar).
 {{<end>}}
 
-## Albert Einstein
+### Brief Biography
+Name: Zhongzhi Li
 
-Institute for Advanced Study\
-Einstein Drive/
-Princeton, N.J. 08540 USA
+### Contact Information
 
-Phone: 609-734-8000\
-Mobile: 609-924-8399
+Email: zzli22@m.fudan.edu.cn
+Homepage: https://zhongzhili.github.io/
 
-Email: a.einstein@ias.edu\
-URL: http://www.ias.edu/spfeatures/einstein/
-
-Born: March 12, 1879—Ulm, Germany\
-Nationality: German/American
-
-### Current position
-Emeritus Professor, Institute for Advanced Study, Princeton 
+### Education Background
+2022.09 ~ 202X, Master, Department of Aeronautics and Astronautics, Fudan University
+2018.09 ~ 2022.06, Bachelor, Computer Science and Technology, Shenyang Aerospace University
 
 ### Areas of specialisation
-Physics; Relativity Theory
+Signal processing; Transfer learning; Trustworthy machine learning
 
-### Appointments held
+### Awards
+Undergraduate period (2018.09 ~ 2022.06)
+National Scholarship (2020.12)
+School Annual Personality Scholarship (2021.12, Only 10 recipients are selected annually school-wide)
+Kunpeng Thesis Scholarship (2022.06, Only 6 recipients are selected annually school-wide in the graduating students)
+Hexagon Enterprise Scholarship (2021.12)
+Costa Enterprise Scholarship (2020.12)
+Academic Scholarship of First Class *6 (2019.12, 2020.06, 2020.12, 2021.06, 2021.12, 2022.06)
+Academic Scholarship of Second Class (2019.06)
 
-1903-1908, Swiss Patent Office, Bern\
-1908-1911, University of Bern\
-1911-1912, University of Zürich\
-1912-1914, Charles University of Prague\
-1914-1932, Prussian Academy of Sciences, Berlin\
-1920-1930, University of Leiden\
-1932-1955, Institute for Advanced Study, Princeton
+Postgraduate period (2022.09 ~ 202X)
+National Scholarship (2023.06)
+Freshman Scholarship (2022.12)
+Inspirational Scholarship of Zhang Mingwei (2022.12)
 
-### Education
-1900, MSc in Physics, ETH Zürich 
-1900, PhD in Physics, ETH Zürich
+### Publications
+I have published a total of 7 papers in SCI journals, 1 paper in EI journal, and 3 papers in Chinese core journals of Peking University. Among these publications, I have been the first author for 6 papers, accumulating a total of 265 citations and achieving an H-index of 8. These metrics reflect the significant impact of my research in the field of artificial intelligence. In addition to my independent research contributions, I have had the privilege of being invited to serve as a reviewer for prestigious academic journals, including 《IEEE Transactions on Artificial Intelligence》, etc. Furthermore, my dedication to research has been acknowledged through various honors and awards, such as the Outstanding Award in 《Shenyang Natural Science Academic Achievements》.
 
-### Grants, honours & awards
-1921, Nobel Prize in Physics, Nobel Foundation
-
-### Publications & talks
 #### Journal articles
-1. Einstein, Albert (1901), “Folgerungen aus den Capillaritätserscheinungen (Conclusions Drawn from the Phenomena of Capillarity)", *Annalen der Physik, 4*: 513
-2. Einstein, Albert (1905), “On a Heuristic Viewpoint Concerning the Production and Transforma- tion of Light", *Annalen der Physik, 17*: 132–148.
+1. Li Z, Huang Y, Li X, et al. Wildland fire burned areas prediction using long short-term memory neural network with attention mechanism[J]. Fire technology, 2021, 57: 1-23.(https://link.springer.com/article/10.1007/s10694-020-01028-3)
+2. Li Z, Qu N, Li X, et al. Partial discharge detection of insulated conductors based on CNN-LSTM of attention mechanisms[J]. Journal of Power Electronics, 2021, 21: 1030-1040.(https://link.springer.com/article/10.1007/s43236-021-00239-3)
 1905b Einstein, Albert (1905), A new determination of molecular dimensions. *PhD dissertation*.
-3. Einstein, Albert (1905), “On the Motion—Required by the Molecular Kinetic Theory of Heat—of Small Particles Suspended in a Stationary Liquid", *Annalen der Physik, 17*: 549–560.\
-1905d Einstein, Albert (1905), “On the Electrodynamics of Moving Bodies", *Annalen der Physik* 17:891–921.
-4. Einstein, Albert (1905), “Does the Inertia of a Body Depend Upon Its Energy Content?", *Annalen der Physik, 18*: 639–641.
-5. Einstein, Albert (1915), “Die Feldgleichungen der Gravitation (The Field Equations of Gravitation)", *Koniglich Preussische Akademie der Wissenschaften*: 844–847
-6. Einstein, Albert (1917), “Kosmologische Betrachtungen zur allgemeinen Relativitätstheorie (Cos-mological Considerations in the General Theory of Relativity)", *Koniglich Preussische Akademie der Wissenschaften*
-7. Einstein, Albert (1917), “Zur Quantentheorie der Strahlung (On the Quantum Mechanics of Ra- diation)", *Physikalische Zeitschrift, 18*: 121–128
+3. Li Z, Zhang Y, Ai J, et al. A Lightweight and Explainable Data-driven Scheme for Fault Detection of Aerospace Sensors[J]. IEEE Transactions on Aerospace and Electronic Systems, 2023.(https://ieeexplore.ieee.org/abstract/document/10214393)
+4. Li Z, Yin H, Zuo J, et al. Bearing fault diagnosis based on generative adversarial networks under imbalanced training data [J]. Small Micro Computer System, 2021,42 (01): 46-51.(https://kns.cnki.net/kcms2/article/abstract?v=gMQMAE8gPKFoOqOTXFrM4jIy46K-mNLfP_9PpAxVLyr9mC18EwBH-663Q2cxnv97dAZlEy2SwLI6tvufl83-zWuhdZOJTNIMh5EaAReIfKksMuzBzGnQHdWayciAJYmVfNK5J076zSmUu8eG8a4WxA==&uniplatform=NZKPT&language=CHS)
+5. Li Z, Yin H, Zuo J, et al. A ship detection model based on UNet++network and multilateral output fusion strategy [J]. Computer Engineering, 2022,48 (04): 276-283.(https://kns.cnki.net/kcms2/article/abstract?v=gMQMAE8gPKEjprq2oTsG5e0Uz2ueuEvNBOW2nm2KebfK-gLcfHtfun5u3piv5ECQfd8ugb-xcViRtugSJFTwzEK8wCRrvWEiVCfoc1KfROakYUkkjCwlMHNxbCJwflIHQ-BN8hsN1UjKrE4lhyh38w==&uniplatform=NZKPT&language=CHS)
+6. Li Z, Ma J, Ai J, et al. Classification of Aviation Sensor Fault Detection Based on VGG16 Networks [J]. Journal of Aeronautics, 2023,44 (S1): 59-68.(https://kns.cnki.net/kcms2/article/abstract?v=gMQMAE8gPKFtTAQTFEkofUXwgxj-RHW9P3PzpDhA707ANl17AivYOTlV8JlTrY9rm9oNvHgoeHSmqbJfXPEGn1fLb7mPoJ-GFtqInVzLf7Znj3iPyMli6wOvqahXK8VK5aIjJaNQ2ieyjEp4Ao6sig==&uniplatform=NZKPT&language=CHS)
 
-#### Books
-Einstein, Albert (1954), *Ideas and Opinions*, New York: Random House, ISBN 0-517-00393-7
+#### Conference articles
+1. Li Z, Zuo J, Han Z, et al. Intelligent classification of multi-gesture EMG signals based on LSTM[C]//2020 International Conference on Artificial Intelligence and Electromechanical Automation (AIEA). IEEE, 2020: 62-65.(https://ieeexplore.ieee.org/abstract/document/9221418)
+2. Li Z, Zuo J, Zhang C, et al. Pneumothorax image segmentation and prediction with UNet++ and MSOF strategy[C]//2021 IEEE International Conference on Consumer Electronics and Computer Engineering (ICCECE). IEEE, 2021: 710-713.(https://ieeexplore.ieee.org/abstract/document/9342193)
+3. Li Z, Liu H, Wang Y, et al. Application of Monte Carlo Tree Optimization Algorithm on Hex Chess[C]//2020 Chinese Control And Decision Conference (CCDC). IEEE, 2020: 3538-3542.(https://ieeexplore.ieee.org/abstract/document/9164656)
 
-#### Newspaper articles
-1. Einstein, Albert, et al. (December 4, 1948), “To the editors", *New York Times*
-2. Einstein, Albert (May 1949), “Why Socialism?", *Monthly Review*.
-
-### Teaching
-
-...
-
-### Service to the profession
-
-...
+#### Hobby
+Running; Basketball
