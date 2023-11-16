@@ -53,7 +53,7 @@ Inspirational Scholarship of Zhang Mingwei (2022.12)
 
 
 #### Journal articles
-<p style="text-align: justify;">[1. Li Z, Huang Y, Li X, et al. Wildland fire burned areas prediction using long short-term memory neural network with attention mechanism[J]. Fire technology, 2021, 57: 1-23.]</p>
+<p style="text-align: justify;">1. Li Z, Huang Y, Li X, et al. Wildland fire burned areas prediction using long short-term memory neural network with attention mechanism[J]. Fire technology, 2021, 57: 1-23.</p>
 [Link](https://link.springer.com/article/10.1007/s10694-020-01028-3)
 <p style="text-align: justify;">[2. Li Z, Qu N, Li X, et al. Partial discharge detection of insulated conductors based on CNN-LSTM of attention mechanisms[J]. Journal of Power Electronics, 2021, 21: 1030-1040.]</p>(https://link.springer.com/article/10.1007/s43236-021-00239-3)
 3. <p style="text-align: justify;">[Li Z, Zhang Y, Ai J, et al. A Lightweight and Explainable Data-driven Scheme for Fault Detection of Aerospace Sensors[J]. IEEE Transactions on Aerospace and Electronic Systems, 2023.]</p>(https://ieeexplore.ieee.org/abstract/document/10214393)
