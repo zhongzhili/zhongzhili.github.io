@@ -48,6 +48,8 @@ Freshman Scholarship (2022.12)
 
 Inspirational Scholarship of Zhang Mingwei (2022.12)
 
+<p style="text-align: justify;">1. Li Z, Huang Y, Li X, et al. Wildland fire burned areas prediction using long short-term memory neural network with attention mechanism[J]. Fire technology, 2021, 57: 1-23.</p> [Link](https://link.springer.com/article/10.1007/s10694-020-01028-3)
+
 ### Publications
 <p style="text-align: justify;">I have published a total of 7 papers in SCI journals, 1 paper in EI journal, and 3 papers in Chinese core journals of Peking University. Among these publications, I have been the first author for 6 papers, accumulating a total of 265 citations and achieving an H-index of 8. These metrics reflect the significant impact of my research in the field of artificial intelligence. In addition to my independent research contributions, I have had the privilege of being invited to serve as a reviewer for prestigious academic journals, including 《[IEEE Transactions on Artificial Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688)》, etc. Furthermore, my dedication to research has been acknowledged through various honors and awards, such as the 《Outstanding Award》 in Shenyang Natural Science Academic Achievements.</p>
 
