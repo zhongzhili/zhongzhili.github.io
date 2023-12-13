@@ -30,6 +30,8 @@ National Scholarship (2020.12)
 
 School Annual Personality Scholarship (2021.12, Only 10 recipients are selected annually school-wide)
 
+[Click to watch the video of personal annual character](https://drive.google.com/file/d/1BnToCl8SBSPy3B3kvZgGdAKsbPAyr7x7/view?usp=drive_link)
+
 Kunpeng Thesis Scholarship (2022.06, Only 6 recipients are selected annually school-wide in the graduating students)
 
 Hexagon Enterprise Scholarship (2021.12)
