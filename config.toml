@@ -1,6 +1,6 @@
 baseURL = "https://zhongzhili.github.io/"
 languageCode = "en-us"
-title = "Zhongzhi"
+title = " Zhongzhi-Li"
 theme = "hugo-ht"
 footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
