@@ -16,9 +16,9 @@ Email: zzli22@m.fudan.edu.cn
 Homepage: [https://zhongzhili.github.io/](https://zhongzhili.github.io/)
 
 ### Education Background
-2022.09 ~ 202X, Master, Department of Aeronautics and Astronautics, Fudan University
+2022.09 ~ 202X, Master, Department of Aeronautics and Astronautics, Fudan University, GPA: 3.56/4.0, Rank: 1/45
 
-2018.09 ~ 2022.06, Bachelor, Computer Science and Technology, Shenyang Aerospace University
+2018.09 ~ 2022.06, Bachelor, Computer Science and Technology, Shenyang Aerospace University, GPA: 93/100, Rank: 1/155
 
 ### Areas of specialisation
 Signal processing; Transfer learning; Trustworthy machine learning; Artificial intelligence
@@ -47,6 +47,8 @@ National Scholarship (2023.06)
 Freshman Scholarship (2022.12)
 
 Inspirational Scholarship of Zhang Mingwei (2022.12)
+
+Yang Yongming Scholarship (2023.12)
 
 
 ### Publications
