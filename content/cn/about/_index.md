@@ -68,7 +68,7 @@ toc: true
 
 [[Link](https://kns.cnki.net/kcms2/article/abstract?v=gMQMAE8gPKEjprq2oTsG5e0Uz2ueuEvNBOW2nm2KebfK-gLcfHtfun5u3piv5ECQfd8ugb-xcViRtugSJFTwzEK8wCRrvWEiVCfoc1KfROakYUkkjCwlMHNxbCJwflIHQ-BN8hsN1UjKrE4lhyh38w==&uniplatform=NZKPT&language=CHS)]
 
-<p style="text-align: justify;">6. 李忠智,马金毅,艾剑良等.拟VGG16网络的航空传感器故障检测分类[J].航空学报,2023,44(S1):59-68.</p>
+<p style="text-align: justify;">6. 李忠智,马金毅,艾剑良,董一群. 拟VGG16网络的航空传感器故障检测分类[J].航空学报,2023,44(S1):59-68.</p>
 
 [[Link](https://kns.cnki.net/kcms2/article/abstract?v=gMQMAE8gPKFtTAQTFEkofUXwgxj-RHW9P3PzpDhA707ANl17AivYOTlV8JlTrY9rm9oNvHgoeHSmqbJfXPEGn1fLb7mPoJ-GFtqInVzLf7Znj3iPyMli6wOvqahXK8VK5aIjJaNQ2ieyjEp4Ao6sig==&uniplatform=NZKPT&language=CHS)]
 
