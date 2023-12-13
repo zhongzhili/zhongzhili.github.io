@@ -24,6 +24,8 @@ toc: true
 
 校年度人物奖学金 (2021.12, 每年全校范围内仅10人入选)
 
+[点击观看个人年度人物视频](https://drive.google.com/file/d/1BnToCl8SBSPy3B3kvZgGdAKsbPAyr7x7/view?usp=drive_link)
+
 鲲鹏奖学金 (2022.06, 每届毕业生中仅6人入选)
 
 海克斯康企业奖学金 (2021.12)
