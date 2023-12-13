@@ -86,14 +86,6 @@ toc: true
 
 [[Link](https://ieeexplore.ieee.org/abstract/document/9164656)]
 
-## 参演作品
-
-...
-
-## 指导学生
-
-...
-
 
 
 
