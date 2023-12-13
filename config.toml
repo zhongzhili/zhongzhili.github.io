@@ -49,11 +49,11 @@ posts = "/posts/:year/:month/:day/:slug/"
     defaultLang = "en"
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs" 
     MathJaxVersion = "2.7.5"
-    favicon = "media/hugo-logo.png"
+    favicon = "media/personal-logo.png"
     # Edit by yourself:
     GithubEdit = "https://github.com/zhongzhili/zhongzhili.github.io/edit/master/content/"
     copyright = "&copy;"
-    copyrightYear = "2020-2021"
+    copyrightYear = "2022-2023"
     # Edit by yourself:
     GithubRepo = "https://github.com/zhongzhili/zhongzhili.github.io"
     # Edit by yourself:
