@@ -12,41 +12,45 @@ tags:
   - English
 ---
 
-# Request sequence generation of VM
-## Article title
+{{<block class="reminder">}}
 
-Generating Complex, Realistic Cloud Workloads using Recurrent Neural Networks
+See the [source code of this page](https://raw.githubusercontent.com/hongtaoh/hugo-ht-exampleSite/master/content/en/posts/2021-01-07-test.md) if you are interested. 
 
-## Author and organization
+{{<end>}}
 
-Shane Bergsma (Huawei Canada Research Center), Timothy Zeyl (Huawei Canada Research Center), Arik Senderovich (University of Toronto), J. Christopher Beck (University of Toronto)
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
-## Problems solved by the article
+## List 
 
-<p style="text-align: justify;">To predict the load of virtual machines dynamically created by users on the cloud, a Cloud Workload can be simply regarded as a Trace of VMs created by users. Each record records the creation time of the VM and the number of resources requested by the VM (CPU, Memory, Network, etc.), VM survival time, etc.</p>
+- Water
+- Water
+- Water
+  1. Water
+  2. Water
+  3. Water
+- Water
+  - Water
+  - Water
+  - Water
+    1. Water
+    2. Water
 
-<p style="text-align: justify;">If the algorithm can accurately predict how the workload will change in the future, resource allocation can be planned more accurately. The accurate prediction model can also be used to tune the scheduling algorithm, improve resource utilization, etc.</p>
+## Table
 
-## Part of the difficulty with this problem
+| Water | *Water* | Water |
+|---------|---------|---------|
+| Water | Water | Water |
+| **Water** | Water[^1] | Water |
+| Water | Water | Water |
 
-<p style="text-align: justify;">One of the difficulties is that historical data cannot be used directly for prediction and optimization:</p>
+## Quotes
 
-<p style="text-align: justify;">The amount of historical data is not large enough. For example, a scheduler based on reinforcement learning requires large batches of data;</p>
-
-<p style="text-align: justify;">Historical data has limitations. It contains limited information and cannot be used for long-term load forecasting;</p>
-
-## Limitations of other approaches to the problem
-
-<p style="text-align: justify;">Traditional modeling method:</p>
-
-<p style="text-align: justify;">It is assumed that the time when a user creates a VM follows an independent Poisson distribution;</p>
-
-<p style="text-align: justify;">It is assumed that user demand for resources follows an independent polynomial distribution;</p>
-
-<p style="text-align: justify;">It is assumed that the life cycle of each VM (or Job) is also independent of each other.</p>
-
-<p style="text-align: justify;">Various independence assumptions in traditional modeling methods make the fitting between modeling results and real data low, making it difficult to generate real, high-quality workloads, resulting in inaccurate final decisions.</p>
-
+> What I cannot create, I do not understand[^2]. — Richard Feynman
 
 ## Math
 
