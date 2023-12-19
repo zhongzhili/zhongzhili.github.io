@@ -1,5 +1,5 @@
 ---
-title: "Reading Notes of Paper"
+title: "Project 1 Request prediction of virtual machine resources (references)"
 date: 2023-12-18
 author: Zhongzhi Li
 slug: first-post
@@ -18,7 +18,6 @@ Article [link](https://tidel.mie.utoronto.ca/pubs/tracegen_camera_20210926.pdf) 
 
 {{<end>}}
 
-# Request sequence generation of VM
 ## Article title
 
 Generating Complex, Realistic Cloud Workloads using Recurrent Neural Networks
