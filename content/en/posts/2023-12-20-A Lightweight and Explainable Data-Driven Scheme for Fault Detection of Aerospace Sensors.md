@@ -1,5 +1,5 @@
 ---
-title: "A lightweight and explainable data-driven scheme for fault detection of aerospace sensors"
+title: A lightweight and explainable data-driven scheme for fault detection of aerospace sensors
 date: 2023-12-20
 author: Zhongzhi Li
 slug: first-post
