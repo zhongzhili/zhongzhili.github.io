@@ -3,7 +3,7 @@ title: "Curriculum Vitae"
 type : list-single
 ---
 {{<block class="note">}}
-[Resume](https://drive.google.com/file/d/1IYhFthtcfqSBk2V0mEvKaVIFfqrh4pIx/view?usp=drive_link).
+My [Resume](https://drive.google.com/file/d/1IYhFthtcfqSBk2V0mEvKaVIFfqrh4pIx/view?usp=drive_link).
 {{<end>}}
 
 ### Brief Biography
