@@ -120,7 +120,7 @@ Article [link](https://ieeexplore.ieee.org/abstract/document/10214393) if you ar
 
 {{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-15.png" width="600">}}
 
-<p style="text-align: justify;">This work has been accepted by the journal IEEE TAES and published online.</p>
+<p style="text-align: justify;">This work has been accepted by the journal [IEEE TAES](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7) and published online.</p>
 
 {{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-16.png" width="600">}}
 
