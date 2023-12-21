@@ -22,13 +22,13 @@ Article [link](https://ieeexplore.ieee.org/abstract/document/10214393) if you ar
 
 <p style="text-align: justify;">Aerospace sensors measure the aircraft states including airspeed, attitude angles, load factors, etc. In literature many flight accidents were caused by aerospace sensors fault. It is imminent to develop fault detection and classification (FDC) techniques for the aerospace sensors.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-1.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-1.png" width="650">}}
 
 <p style="text-align: justify;">Currently, there are 3 main types of research on this problem. The first is rule-based methods, and the second is model-based detection methods. Researchers first proposed using dynamic process models to analyze input and output signals. The last one is based on data-driven method, which is currently the most popular approach.</p>
 
 <p style="text-align: justify;">However, the above 3 methods still have limitations. First, Detection accuracy needs to be further improved, secondly, Considering practical applications at the edge, the size of the model needs to be reduced, and finally, Increasing the interpretability of data-driven models is necessary.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-2.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-2.png" width="650">}}
 
 ## Highlights
 
