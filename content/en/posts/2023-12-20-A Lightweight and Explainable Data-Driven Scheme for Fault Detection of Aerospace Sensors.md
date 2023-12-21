@@ -1,5 +1,5 @@
 ---
-title: "Project 2 Fault detection of aircraft sensors"
+title: "A Lightweight and Explainable Data-Driven Scheme for Fault Detection of Aerospace Sensors"
 date: 2023-12-20
 author: Zhongzhi Li
 slug: first-post

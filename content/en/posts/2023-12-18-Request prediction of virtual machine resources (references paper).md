@@ -1,5 +1,5 @@
 ---
-title: "Project 1 Request prediction of virtual machine resources (references)"
+title: Request prediction of virtual machine resources (references paper)"
 date: 2023-12-18
 author: Zhongzhi Li
 slug: first-post
