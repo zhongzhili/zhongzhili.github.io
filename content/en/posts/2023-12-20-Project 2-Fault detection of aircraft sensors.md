@@ -42,7 +42,7 @@ Article [link](https://ieeexplore.ieee.org/abstract/document/10214393) if you ar
 
 <p style="text-align: justify;">We conducted extensive testing utilizing a database encompassing multiple types of aircraft. Nine advanced menthods were employed in our experiments, including models that take a one-dimensional tensor as input and optimized neural network models that adopt two-dimensional matrix as input. The final test results demonstrate that the proposed method in this paper achieves the highest accuracy.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-3.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-3.png" width="650">}}
 
 ## SDI
 
@@ -50,11 +50,11 @@ Article [link](https://ieeexplore.ieee.org/abstract/document/10214393) if you ar
 
 <p style="text-align: justify;">Illustrative plots of the SDI is shown in Figure 3. Left: flight records that are collected from real flights/simulations; Middle: the cropped and down-sampled data. Right: the matrix that are linearly normalized within the range of 0-1 along each row.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-4.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-4.png" width="650">}}
 
 <p style="text-align: justify;">After we get the stacked SDI images, what we need to focus on is how to use the VGG16 model with pre-trained weights for classification. Before inputting the VGG16 model, we use data augmentation methods to expand the original image. Specifically, there are 7 methods. For detailed calculation details, please refer to Part A of Section 3 of the paper.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-5.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-5.png" width="650">}}
 
 ## Model pruning
 
@@ -62,13 +62,13 @@ Article [link](https://ieeexplore.ieee.org/abstract/document/10214393) if you ar
 
 <p style="text-align: justify;">In the paper, we used channel pruning menthod. In this paper, we have made 2 improvements. The first is Multi-scale kernels importance assessment, and the second is Improved knowledge distillation model to improve model pruning accuracy.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-6.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-6.png" width="650">}}
 
 <p style="text-align: justify;">Given the assumption that parameters enclosed within the DNN are independent, model pruning is defined as a constrained optimization problem. We simplified the problem using Taylor expansion and ultimately obtained the importance scores of kernels.</p>
 
 <p style="text-align: justify;">However, it is crucial to acknowledge that the importance scores of a given channel can have varying impacts on the model across different convolutional layers. To tackle this challenge, we introduce a novel approach called hierarchical and dynamic pruning. This approach considers the evaluation of importance for both channels and convolutional layers, enabling a comprehensive assessment that facilitates the adaptation of the network structure to enhance robustness. Figure 8 showcases the process of computing the importance of convolutional layers.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-7.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-7.png" width="650">}}
 
 <p style="text-align: justify;">To enhance the fine-tuning process, a distillation menthod is employed. This part is the probability vector of the teacher model. This part is the probability vector of the student model. The output is the Kullback-Leibler divergence between the two probability vectors.</p> 
 
@@ -76,13 +76,13 @@ Article [link](https://ieeexplore.ieee.org/abstract/document/10214393) if you ar
 
 <p style="text-align: justify;">This part is the Cross entropy Loss function. This part is used to control the proportion of loss items. When the prediction accuracy of the teacher model exceeds 90%, the value will be activated, otherwise the value will be 0.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-8.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-8.png" width="650>}}
 
 <p style="text-align: justify;">Comparative experiments were conducted on distillation menthods with thresholds, and the results are illustrated in the figure 10. Through comparison, it is evident that incorporating a threshold in the distillation menthod significantly enhances the model's accuracy.</p>
 
 <p style="text-align: justify;">For comparative purposes, aside from the channel pruning menthod that we eventually proposed, we also discuss Random, L1 unstructured, and L2 structured pruning methods in Table I. The model pruning method we proposed yields an aerospace sensors FDC net at 4.58 MB size and 98.99% accuracy.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-9.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-9.png" width="650">}}
 
 ## Explainability
 
@@ -92,38 +92,37 @@ Article [link](https://ieeexplore.ieee.org/abstract/document/10214393) if you ar
 
 <p style="text-align: justify;">Grad-CAM and SHAP are commonly used methods for neural network interpretability analysis. This paper aims to combine the characteristics of SHAP values and Grad-CAM by proposing an adaptive weight fusion menthod, which achieves a more comprehensive model interpretability.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-10.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-10.png" width="650">}}
 
 <p style="text-align: justify;">Using the stacked image as input, Grad-CAM results from different convolutional layers of the pruned-VGG16-FDC neural network are plotted in Figure 14. In the first several layers of the net (1st and 2nd), the convolution focuses on extracting low-level features such as edges/lines on the image. As the convolutional layers stack deeper, more features appear in the 6th and 10th layers. As shown in Figure, the hotter areas in the 6th and 10th layers correspond to the protruding strip shown on the net input. In the last convolutional layer of the neural network, the hotter area focuses exclusively around the fault region.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-11.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-11.png" width="650">}}
 
 <p style="text-align: justify;">When the uncertainty of Grad-CAM's predictions is around 0.45, as shown in Figure 15, the Grad-CAM-based interpretability method marks multiple channel. It is not possible to determine the faulty channel based on Grad-CAM. Similarly, the SHAP-based interpretation also marks the two channels ((1), (2)) as important. However, by analyzing the color intensity and length of the SHAP marks, as well as the distribution of Grad-CAM marks, it can be observed that both menthods have significant marks in the region (1) of the image. Therefore, it can be inferred that the third channel is faulty.</p>
 
 <p style="text-align: justify;">In the case of Figure 16, where the uncertainty of Grad-CAM results is 0.15, the faulty channels are `p,q,r`. However, Grad-CAM menthod focuses on channels `\psi`, `\theta`, `\phi`. Based on the proposed fusion menthod, the faulty region can be more accurately marked.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-12.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-12.png" width="650">}}
 
 ## Comparison
 
 <p style="text-align: justify;">We demonstrate the training process of the proposed menthod using the t-SNE method and ROC curve, demonstrating its superior performance.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-13.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-13.png" width="650">}}
 
 <p style="text-align: justify;">Dividing the images into a 9:1 (training:testing) ratio, the pruned-VGG16-FDC is tuned using training data. To verify the effectiveness of the menthod proposed in this paper, we conducted a comparison with nine state-of-the-art fault detection menthods. The proposed model presented in this paper attains superior performance, achieving the highest accuracy while also considering the menthod's runtime. This consideration enhances the model's application performance, making it more suitable for practical implementation.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-14.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-14.png" width="650">}}
 
 ## Summary
 
 <p style="text-align: justify;">An augmented imagefication based fault detection and classification (FDC) scheme for aerospace sensors are proposed. Measurement data of the sensors are first stacked into a image, data augmentation is then studied to inflate the stacked image to the size that is compatible with images commonly adopted in the machine vision realm. The FDC net is constructed via fine-tuning VGG16, a classical neural network, which is further pruned to compress the net size. Via extensive tests on a database, the proposed net yields 98.99% FDC accuracy across 4 aircraft at 5 flight conditions. Both Grad-CAM and fusion of Grad-CAM and SHAP analysis are also adopted in the paper, which justified both local and global operations enclosed within the net. The results of comparative experiments with nine advanced menthods in this paper demonstrate the effectiveness of the proposed FDC scheme.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-15.png" width="500">}}
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-15.png" width="650">}}
 
 <p style="text-align: justify;">This work has been accepted by the journal IEEE TAES and published online.</p>
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-16.png" width="500">}}
-
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231220-16.png" width="650">}}
 
 
 
