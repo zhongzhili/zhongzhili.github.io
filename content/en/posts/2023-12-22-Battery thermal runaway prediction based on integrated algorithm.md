@@ -16,7 +16,7 @@ tags:
 
 {{<end>}}
 
-## Background and research introduction
+## Background
 
 <p style="text-align: justify;">Battery thermal runaway means that the battery generates excessive heat during charging or discharging, causing a sharp rise in temperature, and may even cause an explosion or fire. Therefore, in order to ensure the safety and stability of batteries, big data prediction of battery thermal runaway technology has become crucial. In order to effectively prevent and respond to battery thermal runaway risks, researchers have developed a variety of battery thermal runaway detection technologies. These solutions and methods can be divided into three categories: model-based, signal-based and knowledge-based. Existing fault diagnosis methods have certain limitations, such as difficulty in identifying model parameters, lack of reliable and online-applicable signal processing and feature extraction methods, poor stability and low robustness of single model detection, etc. Furthermore, it is difficult to quickly detect faults in their early stages based on actual operating data.</p>
 
@@ -24,13 +24,21 @@ tags:
 
 {{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231222-2.png" width="600">}}
 
-## Current research status of VM sequence generation
+## Research introduction
 
-<p style="text-align: justify;">VM sequence generation is a key root technology that affects many key downstream businesses such as simulation platforms and capacity expansion recommendations. Some current research methods mainly include LSTM-based timing learning methods, Bootstrap-based historical real sequence resampling methods, and clustering-based resampling methods. Sampled data-driven approach. The advantage of the above method is that it can highly restore history and has good generalization and abstraction capabilities. However, the disadvantages are decoupled prediction (relying on basic business input), no information system, low model complexity, and low predictability. Based on the current technological development, forecasting large models is a feasible direction for forecasting. It is a complex information system modeling problem. The focus is on using Transformer-based large models to integrate business information from various sources and build a forecasting model with a complex information ecology.</p>
+<p style="text-align: justify;">In order to improve the accuracy and reliability of battery thermal runaway detection, we apply stack learning to this field. Existing battery thermal runaway detection methods usually use a single detection model. Due to the complexity of the battery system, a single model is difficult to fully capture the battery. Diverse characteristics of thermal runaway. Stacked learning integrates multiple different types of detection models, such as support vector machine (SVM), random forest (Random Forest), neural network, etc., to combine the advantages of each model and improve detection accuracy and generalization capabilities. In addition, we designed 11 statistical features to characterize the rich information of the original data. At the same time, the stacked learner has strong automatic learning and feature selection capabilities, and can automatically extract the most informative features from the original data and optimize the detection performance.</p>
 
-## Challenges and difficulties in VM sequence generation
+## Feature engineering
 
-<p style="text-align: justify;">First of all, the prediction problem has true random uncertainty, which changes the nature of the problem compared to the traditional NLP large model with rigorous and complete semantic logic. The focus of the true randomness problem is that the information (the basis of the model space) is complex and difficult to represent, rather than pure model complexity. Unless the VM sequence essentially follows something with strict logic like natural language, data induction from an infinite dimensional numerical space may be a false proposition. The feasible proposition is how to integrate large-scale, effective NLP information with complete semantic logic into the numerical fitting and sequence generation process to build a complex prediction ecosystem with multi-modal information integration.</p>
+<p style="text-align: justify;">F11 statistics and their calculation formulas:</p>
+1.Absolute Mean
+`$$\bar{x}=\frac{1}{N} \sum_{i=1}^{N}\left|x_{i}\right|$$`
+
+2.Standart Deviation
+`$$\sigma=\sqrt{\frac{1}{N} \sum_{i=1}^{N}\left(x_{i}-\bar{x}\right)^{2}}$$`
+
+
+
 
 ## Proposed method
 
