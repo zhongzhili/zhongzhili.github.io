@@ -33,9 +33,27 @@ tags:
 <p style="text-align: justify;">F11 statistics and their calculation formulas:</p>
 1.Absolute Mean
 `$$\bar{x}=\frac{1}{N} \sum_{i=1}^{N}\left|x_{i}\right|$$`
-
 2.Standart Deviation
 `$$\sigma=\sqrt{\frac{1}{N} \sum_{i=1}^{N}\left(x_{i}-\bar{x}\right)^{2}}$$`
+3.Skewness
+`$$\mathrm{Sk}=\frac{1}{N} \sum_{i=1}^{N} \frac{\left(x_{i}-\bar{x}\right)^{3}}{\sigma^{3}}$$`
+4.Kurtosis
+`$$\mathrm{K}=\frac{1}{N} \sum_{i=1}^{N} \frac{\left(x_{i}-\bar{x}\right)^{4}}{\sigma^{4}}$$`
+5.Entropy
+`$$H(X)=-\sum_{i=1}^{N} P\left(x_{i}\right) \log P\left(x_{i}\right)$$`
+6.RMS
+`$$x_{r m s}=\sqrt{\left(\frac{1}{N}\right) \sum_{i=1}^{N}(x)^{2}}$$`
+7.Peak to Peak
+`$$x_{p}=\max \text { value }-\min \text { value }$$`
+8.Crest Factor
+`$$x_{c r e s t}=\frac{\text { max value }}{\mathrm{x}_{\mathrm{rms}}}$$`
+9.Clearence Factor
+`$$x_{\text {clear }}=\frac{x_{p}}{\left(\frac{1}{N} \sum_{i=1}^{N} \sqrt{\left|x_{i}\right|}\right)^{2}}$$`
+10.Shape Factor
+`$$\frac{\mathcal{X}_{r m s}}{{\bar{x}}}$$`
+11.Impulse
+`$$\frac{\text { max value }}{\bar{x}}$$`
+
 
 
 
