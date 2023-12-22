@@ -30,7 +30,7 @@ tags:
 
 ## Feature engineering
 
-<p style="text-align: justify;">F11 statistics and their calculation formulas:</p>
+<p style="text-align: justify;">The 11 statistics and their calculation formulas:</p>
 1.Absolute Mean
 
 `$$\bar{x}=\frac{1}{N} \sum_{i=1}^{N}\left|x_{i}\right|$$`
@@ -75,19 +75,30 @@ tags:
 
 `$$\frac{\text { max value }}{\bar{x}}$$`
 
+## Integrated learning algorithm based on Stacking
 
+<p style="text-align: justify;">The Stacking integrated learning framework first divides the original data set into several sub-datasets and inputs them into each base learner of the first-layer prediction model. Each base learner outputs its own prediction result. Then, the output of the first layer is used as the input of the second layer to train the meta-learner of the second layer prediction model, and then the model in the second layer outputs the final prediction result. The Stacking learning framework generalizes the output results of multiple models to improve the overall prediction accuracy.</p>
 
+## Battery thermal runaway prediction model based on multi-model fusion Stacking ensemble learning method
 
+<p style="text-align: justify;">Based on the prediction ability of the base learner, in the first layer of the Stacking model, in addition to the XGBoost algorithm that is widely used in major competitions, we also selected the random forest (RF) with excellent prediction performance. As a base learner, the model adopts the bagging integrated learning method, has excellent learning ability and rigorous mathematical theory support, and has been widely used in various fields. To sum up, the first layer of the stacking integration model initially selects the base learners as XGBoost and RF, and the second layer selects the K nearest neighbor model as the meta-learner. The model architecture is shown in the figure below.</p>
 
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231222-3.png" width="600">}}
 
+<p style="text-align: justify;">In addition, the training set of the meta-learner is generated from the output of the base learner. If the training set of the base learner is directly used to generate the secondary training set, serious overfitting may occur. In order to prevent the data from being repeatedly learned by the double-layer learner and avoid the occurrence of the "over-fitting" effect, the data usage process needs to be divided reasonably. According to the two selected base learners, the original training data set needs to be divided into two sub-data sets first, and the data IDs of each piece of data do not overlap each other. For a single base learner, use one data block as the training set, corresponding to The remaining data blocks serve as the test set. Each base learner can output a prediction result for its own test data set, and the two results can eventually be merged into a new data set.</p>
 
-## Proposed method
+## Test Results
 
-<p style="text-align: justify;">On the one hand, you can use the original GPT model based on business data Finetune to create a Chat-business numerical Fusion GPT model that adapts to the business, or simply combine macro/micro statistical analysis to make a Prompt Q&A model Embed with Complex information knowledge. On the other hand, consider blending static and time-varying variables together. Among them, static variables refer to variables that do not change with time, such as the physical location of the virtual machine, while time-varying variables refer to variables that change with time, which include time-varying variables that can be observed in the past (changes in historical VM request resources) and Time-varying variables in the future are known a priori (both the past and the future are known, such as holidays, company development trends, etc.).</p>
+<p style="text-align: justify;">We choose the XGBoost model and the random forest model as comparison models to verify the effect of the stacked model. First, the XGBoost model and the random forest model were used as thermal runaway fault detection algorithms to conduct experiments, and the results are shown in the figures. It can be found that XGBoost and random forest algorithms still have the problem of classification errors for some data. In particular, both of them misclassify a large amount of thermal runaway data as normal data in real situations. The effect of the model still has a lot of room for improvement. We use the XGBoost model and the random forest model as the first layer classifier of the stacked model, and the KNN model as the second layer classifier. The results of training and testing using the same data are shown in the figure. It can be found that the model proposed in this patent effectively improves the problem of low thermal runaway detection accuracy. At the same time, analyzing the results shown in the table, the stacking model proposed in this patent not only improves the accuracy of model testing, but also improves the accuracy of the training process. And the deviation of the accuracy results of multiple trainings is reduced, which shows that this model can effectively improve the accuracy and stability of detection.</p>
 
-[The Reference articles](https://pdf.sciencedirectassets.com/271676/1-s2.0-S0169207021X00040/1-s2.0-S0169207021000637/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDDXCMeqQll%2B7Vuaqsipg0SGThZZZEtPmJU%2BzQnG7tiNAIhAKiQhOFj74d5GCe2jeczOZw0yJrvU7WBF95Y3qJkyv2cKrsFCP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1IgzPxnG7W16IyqyQqXwqjwXkyW%2FyQxoLma8YUgxHes4Bi3k69M%2FS9QkabpMg8N%2F4dk5lCThiQuyns1QqF%2BvG%2Bmz3h0B3MgtJaA4PFxwKe5DjohvUTawG8EzPb93Wsmicmw0C6nUWZDEkciFCaphYKXWIF50xxCCY%2Fm0fxDRVhH8gKxTNXVXu0rkKY9MELBpz0E46HrquO1fqetTVPLLd%2F2vi5nn1nen0rIHtIuaRM0Oyyv84ejmcRwPEx2rNo74VZqih%2FuK96KgQTB7BCHPSy3ZxAybWFLapFhG8ISWytpDQ36gkYmNMxssdXQmkUbM%2FU9NRKOJF8BDqrpVbnvWDTA8gTOtMNrbtX0v3igCke2mJEhUy%2FRaqhFUNKCnfmUKdFX9zgdwQYXC273GUoIo8WJUAcB50mRCdPPvSB6LWUiGEzsndeyPXJdUHcdp9YkO3CcIcdF8Q9vTNQh%2FKpbn2aVkig9ZgKt5izHom5ItMGOIJb6RrHo8QuULy%2BM%2FC76cKRQEIXfjwpERGqxSCRGvFfA3anHlxZ828j3G0E5dKuybCXRng4prBAxY6OypXP%2FTrMbpJk9DfzkmGwBCsD3TjkoiI1N5h1236W9MA9TDgWE4RH7I5vQLWx%2FohXsntZBdCzs%2BIUio4RM97o3s%2FJsoHhqY4HfGXwiKf0MnPI8dDP39EI8xDDoFFWSKNf2x0CN%2FUuArbXIBcRfrhSxnbEo6CFokRxR56dj0VgsbvRAfjoqBsIEef4CksgRtdx7niDBkpAaFN6m%2BGSQIRmOOTj5HwWIu9GTcX7I7ohMVSGob0E6skhWjqOCIzzQQC41vMRA9ZXf10w237DGy%2FfKHTWS1AOWULNoQzvHGhK9GcaPoGJM5Cuu%2BQrzN3By4VgJMuZKn8MKuFj6wGOrABKJn3oTnBoS1PSNaaYHfz37r7gjqsI5LbjXGLCsRvPdltO8fwbz6Q9LCxAg0VskAx%2BMTUTRCS8XXRfOfqZOhkDBHJZbnPEu%2FUCdaCmI1OhbEriaG49MSbNbSUpI7HhBUfA32yHGYTx4c67ag4PYry%2BlXBGywxISVa7kKoslgJ60IzAxpTt5a6zqu%2FpKqgCpaJR4EcfQ1%2BeKNCK47PHKgKcQnUZ6hxHAVsLWawZE2aGMo%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231221T060953Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYVNXP4ZEE%2F20231221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c0699eac7d0f60393d1fd20b265bb9c2e8b9d916a036e0edada26f5f3a2af913&hash=3bc8c357ff0ae5c68b784f5b76e7d5f9b058e79fef7f9240b97564e7671e33a8&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0169207021000637&tid=spdf-3c186525-db41-4667-b9fb-e254c91bf56d&sid=e462ebf375e077433c6833452f3df358528egxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0e0b5e52590504515654&rr=838df5726a735dea&cc=hk)
+{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231222-4.png" width="600">}}
 
-{{<figure src="https://raw.githubusercontent.com/zhongzhili/zhongzhili.github.io/master/content/en/fig/20231221-1.png" width="600">}}
+| Water | XGBoost | RF | Stacking Model |
+|---------|---------|---------|---------|
+| Train CV Accuracy | 0.88 (+/- 0.11) | 0.93 (+/- 0.03) | 0.96 (+/- 0.01) |
+| Train Accuracy | 0.75 | 0.94 | 0.98 |
+| Test Accuracy | 0.72 | 0.92 | 0.96 |
+
 
 
 
