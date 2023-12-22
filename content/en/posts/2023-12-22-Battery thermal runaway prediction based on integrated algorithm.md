@@ -95,9 +95,9 @@ tags:
 
 | Water | XGBoost | RF | Stacking Model |
 |---------|---------|---------|---------|
-| Train CV Accuracy | 0.88 (+/- 0.11) | 0.93 (+/- 0.03) | 0.96 (+/- 0.01) |
-| Train Accuracy | 0.75 | 0.94 | 0.98 |
-| Test Accuracy | 0.72 | 0.92 | 0.96 |
+| Train CV Accuracy | 0.88 (+/- 0.11) | 0.93 (+/- 0.03) | **0.96 (+/- 0.01)** |
+| Train Accuracy | 0.75 | 0.94 | **0.98** |
+| Test Accuracy | 0.72 | 0.92 | **0.96** |
 
 
 
